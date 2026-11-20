@@ -6,3 +6,6 @@
 
 /* Refined two-column company overview */
 .about{grid-template-columns:.35fr 1.65fr;gap:6%}.about>div{max-width:850px}@media(max-width:850px){.about{grid-template-columns:1fr 2fr}}@media(max-width:650px){.about{display:block}}
+
+/* About section trust reasons */
+.trust-reasons{padding-left:22px;margin:16px 0 20px;color:#354253;font-size:12px;line-height:1.9}.trust-reasons li{padding-left:7px;margin:5px 0}.about .lead strong{color:var(--ink)}
