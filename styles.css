@@ -9,3 +9,6 @@
 
 /* About section trust reasons */
 .trust-reasons{padding-left:22px;margin:16px 0 20px;color:#354253;font-size:12px;line-height:1.9}.trust-reasons li{padding-left:7px;margin:5px 0}.about .lead strong{color:var(--ink)}
+
+/* Layout and copy refinements from review */
+.heading>div>small,.heading>div>label{display:block}.heading>div>small{margin-bottom:18px}.heading>div>label{font-size:10px;font-weight:700;letter-spacing:.2em;color:var(--red);margin:0 0 18px}.price-label{display:block;font:700 9px "DM Sans",sans-serif;letter-spacing:.16em;color:#f0a095;margin-bottom:7px}.cards article{min-width:0}.cards h3{overflow-wrap:break-word}
