@@ -34,3 +34,17 @@
 .whatsapp-panel #whatsapp-enquiry input,.whatsapp-panel #whatsapp-enquiry select,.whatsapp-panel #whatsapp-enquiry textarea{padding:11px 12px}
 @keyframes waPanelIn{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
 @media(max-width:650px){.whatsapp-widget{right:16px;bottom:16px}.whatsapp-panel{right:-2px;bottom:66px;padding:25px 18px;width:min(420px,calc(100vw - 24px));max-height:75vh}.whatsapp-widget .whatsapp-float{padding:13px;border-radius:50%}}
+
+
+/* Compact four-card training layout, matching the original side-by-side presentation */
+.cards{grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:stretch}
+.cards article{padding:24px 18px;min-height:390px}
+.cards h3{font-size:21px;line-height:1.2;margin:28px 0 12px}
+.cards p{font-size:11px;line-height:1.7}
+.cards li{font-size:10px;padding:7px 0;line-height:1.45}
+.cards article>span{font-size:8px}
+.cards article>a{font-size:10px}
+.cards .price{font-size:25px}
+.cards .price small{font-size:9px;line-height:1.5}
+@media(max-width:1050px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.cards article{min-height:370px}}
+@media(max-width:650px){.cards{grid-template-columns:1fr}.cards article{min-height:0;padding:26px 22px}.cards h3{font-size:25px;margin-top:24px}}
