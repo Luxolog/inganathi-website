@@ -12,3 +12,6 @@
 
 /* Layout and copy refinements from review */
 .heading>div>small,.heading>div>label{display:block}.heading>div>small{margin-bottom:18px}.heading>div>label{font-size:10px;font-weight:700;letter-spacing:.2em;color:var(--red);margin:0 0 18px}.price-label{display:block;font:700 9px "DM Sans",sans-serif;letter-spacing:.16em;color:#f0a095;margin-bottom:7px}.cards article{min-width:0}.cards h3{overflow-wrap:break-word}
+
+/* Keep all four training options visible in a balanced desktop grid */
+.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.cards article{min-height:430px}@media(max-width:650px){.cards{grid-template-columns:1fr}.cards article{min-height:0}}
